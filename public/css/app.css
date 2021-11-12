@@ -6112,4 +6112,54 @@ readers do not read off random characters that represent icons */
   font-weight: 400;
 }
 
+.banner {
+  display: flex;
+  justify-content: space-between;
+  background-color: #9b009d;
+  margin: 0;
+  color: #ffffffc7;
+  font-size: 12px;
+}
+.banner input::placeholder {
+  font-style: italic;
+  font-size: 12px;
+  padding: 2px;
+  color: #565656c7;
+}
+.banner input {
+  border-radius: 3px;
+  border: none;
+  height: 70%;
+  margin-right: 3px;
+}
+.banner button {
+  background-color: #00e173;
+  border: none;
+  border-radius: 3px;
+  font-size: 12px;
+  color: white;
+  padding: 1px;
+  height: 70%;
+  width: 5%;
+}
+.banner img {
+  width: 2vw;
+  height: 2vw;
+}
+.banner div {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner div p {
+  margin: 0;
+  padding-right: 3px;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
 /*# sourceMappingURL=app.css.map */
