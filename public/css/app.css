@@ -6120,6 +6120,16 @@ readers do not read off random characters that represent icons */
   color: #ffffffc7;
   font-size: 12px;
 }
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .banner {
+    height: 30px;
+  }
+}
+@media screen and (min-width: 375px) and (max-width: 550px) {
+  .banner {
+    height: 100px;
+  }
+}
 .banner input::placeholder {
   font-style: italic;
   font-size: 12px;
@@ -6132,6 +6142,11 @@ readers do not read off random characters that represent icons */
   height: 20px;
   margin-right: 3px;
 }
+@media screen and (min-width: 375px) and (max-width: 550px) {
+  .banner input {
+    width: 70%;
+  }
+}
 .banner button {
   background-color: #00e173;
   border: none;
@@ -6142,9 +6157,19 @@ readers do not read off random characters that represent icons */
   height: 22px;
   width: 100px;
 }
+@media screen and (min-width: 375px) and (max-width: 550px) {
+  .banner button {
+    width: 70%;
+  }
+}
 .banner img {
   width: 30px;
   height: 30px;
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  .banner img {
+    display: none;
+  }
 }
 .banner div {
   width: 100%;
@@ -6152,9 +6177,20 @@ readers do not read off random characters that represent icons */
   justify-content: center;
   align-items: center;
 }
+@media screen and (min-width: 375px) and (max-width: 550px) {
+  .banner div {
+    flex-direction: column;
+    justify-content: space-around;
+  }
+}
 .banner div p {
   margin: 0;
   padding-right: 3px;
+}
+@media screen and (min-width: 375px) and (max-width: 550px) {
+  .banner div p {
+    font-weight: bold;
+  }
 }
 
 nav {
@@ -6164,6 +6200,11 @@ nav {
   height: 100px;
   border-bottom: solid 0.7px #00000066;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  nav {
+    height: 75px;
+  }
+}
 nav .img_navbar {
   height: 100%;
   border-right: solid 0.7px #00000066;
@@ -6171,6 +6212,14 @@ nav .img_navbar {
   width: 25%;
   align-items: center;
   justify-content: center;
+}
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  nav .img_navbar {
+    display: none;
+  }
+}
+nav .img_navbar img {
+  width: 80%;
 }
 nav .navbar {
   display: flex;
@@ -6188,6 +6237,14 @@ nav ul {
   margin: 0;
   padding: 0;
 }
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  nav ul {
+    flex-wrap: wrap;
+    align-items: center;
+    width: 90%;
+    margin: auto;
+  }
+}
 nav ul .last_li {
   display: flex;
   align-items: center;
@@ -6197,11 +6254,36 @@ nav ul .last_li {
   padding-left: 20px;
   border-left: solid 0.7px #00000066;
 }
+@media screen and (min-width: 375px) and (max-width: 768px) {
+  nav ul .last_li {
+    padding: 0;
+    border: none;
+    width: auto;
+    height: auto;
+    display: inline;
+  }
+}
 nav ul a {
   font-size: 12px;
   text-decoration: none;
   color: black;
   font-weight: 500;
+}
+@media screen and (min-width: 375px) and (max-width: 477px) {
+  nav ul a {
+    font-size: 8px;
+  }
+}
+@media screen and (min-width: 477px) and (max-width: 768px) {
+  nav ul a {
+    font-size: 10px;
+    margin-inline: 3px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  nav ul a {
+    font-size: 10px;
+  }
 }
 nav ul a:hover {
   text-decoration: underline;
