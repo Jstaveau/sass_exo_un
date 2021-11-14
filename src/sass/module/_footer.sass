@@ -8,6 +8,13 @@ footer
         width: 30%
         height: 35%
         margin: auto
+        @media screen and ( min-width: $screen_xs ) and ( max-width: $screen_s )
+            flex-direction: column
+            padding: 20px 0
+        @media screen and ( min-width: $screen_s ) and ( max-width: $screen_m )
+            width: 70%
+        @media screen and ( min-width: $screen_m ) and ( max-width: $screen_l )
+            width: 50%
         a
             display: flex
             justify-content: space-between

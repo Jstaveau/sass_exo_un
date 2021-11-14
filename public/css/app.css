@@ -6368,6 +6368,22 @@ footer .reseaux {
   height: 35%;
   margin: auto;
 }
+@media screen and (min-width: 375px) and (max-width: 425px) {
+  footer .reseaux {
+    flex-direction: column;
+    padding: 20px 0;
+  }
+}
+@media screen and (min-width: 425px) and (max-width: 768px) {
+  footer .reseaux {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  footer .reseaux {
+    width: 50%;
+  }
+}
 footer .reseaux a {
   display: flex;
   justify-content: space-between;
