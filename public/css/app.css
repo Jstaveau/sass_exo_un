@@ -6333,6 +6333,11 @@ nav ul a:hover {
     padding: 20px;
   }
 }
+@media screen and (min-width: 375px) and (max-width: 550px) {
+  .section_un ul li {
+    margin-top: 8px;
+  }
+}
 
 .section_deux {
   width: 80%;
@@ -6343,6 +6348,12 @@ nav ul a:hover {
   font-size: 40px;
   font-weight: 200;
   padding: 15px 0;
+}
+@media screen and (min-width: 375px) and (max-width: 550px) {
+  .section_deux h1 {
+    font-size: 30px;
+    padding: 0;
+  }
 }
 
 footer {
@@ -6392,6 +6403,12 @@ footer p {
 body {
   margin: 0;
   font-family: sans-serif;
+}
+
+@media screen and (min-width: 375px) and (max-width: 550px) {
+  p {
+    text-align: justify;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
