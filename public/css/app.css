@@ -6299,12 +6299,22 @@ nav ul a:hover {
   font-weight: 200;
   padding: 25px 0;
 }
+@media screen and (min-width: 375px) and (max-width: 550px) {
+  .section_un h1 {
+    margin: 0;
+  }
+}
 .section_un hr {
   width: 4%;
   background-color: #9b009d;
   border: none;
   height: 1px;
   margin-bottom: 60px;
+}
+@media screen and (min-width: 375px) and (max-width: 550px) {
+  .section_un hr {
+    margin-bottom: 30px;
+  }
 }
 .section_un p {
   font-size: 16px;
@@ -6315,6 +6325,13 @@ nav ul a:hover {
 }
 .section_un ul li::marker {
   color: #9b009d;
+}
+@media screen and (min-width: 375px) and (max-width: 550px) {
+  .section_un ul {
+    line-height: 1.5;
+    font-size: 14px;
+    padding: 20px;
+  }
 }
 
 .section_deux {
